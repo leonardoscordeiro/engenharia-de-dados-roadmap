@@ -65,19 +65,32 @@ aulas/
 
 ---
 
-## Conceitos Priorizados para Engenharia de Dados
+## Sistema de Revisão Espaçada
 
-| Prioridade | Conceito | Uso em DE |
-|------------|----------|-----------|
-| Alta | Agrupar/contar em dicionários | GROUP BY em todo pipeline |
-| Alta | Limpar dados (None, validação) | Qualidade de dados |
-| Alta | Cruzar dados (JOIN) | Merge entre tabelas/fontes |
-| Alta | Pipeline ETL | Core da profissão |
-| Alta | Acumular e agregar valores | SUM, AVG, COUNT |
-| Média | List/dict comprehension | Transformações rápidas |
-| Média | Filtrar listas por condição | WHERE em queries |
-| Média | try/except | Pipelines robustos |
-| Média | Funções chamando funções | Modularização |
+### Como funciona
+
+Cada sessão (~1h) tem duas partes:
+- **Aquecimento (10 min)** — 1 exercício de revisão, conceito já visto mas cenário novo voltado pra DE
+- **Avanço (50 min)** — conteúdo novo da fase atual
+
+A revisão segue intervalos espaçados: **Dia 1 → Dia 3 → Dia 7 → Dia 14 → Fixado**.
+Conceitos de prioridade alta aparecem com mais frequência.
+
+### Prioridade dos Conceitos (foco em Engenharia de Dados)
+
+| Prioridade | Conceito | Motivo (uso em DE) |
+|------------|----------|-------------------|
+| :red_circle: ALTA | Agrupar/contar em dicionários | GROUP BY em todo pipeline |
+| :red_circle: ALTA | Limpar dados (None, validação) | Qualidade de dados é tudo |
+| :red_circle: ALTA | Cruzar dados (JOIN) | Merge entre tabelas/fontes |
+| :red_circle: ALTA | Pipeline ETL (extrair → transformar → carregar) | Core da profissão |
+| :red_circle: ALTA | Acumular e agregar valores | SUM, AVG, COUNT em tudo |
+| :yellow_circle: MÉDIA | List/dict comprehension | Transformações rápidas |
+| :yellow_circle: MÉDIA | Filtrar listas por condição | WHERE em queries |
+| :yellow_circle: MÉDIA | try/except | Pipelines robustos |
+| :yellow_circle: MÉDIA | Funções chamando funções | Modularização de pipelines |
+| :green_circle: BAIXA | if/else, for, while, return | Já internalizado |
+| :green_circle: BAIXA | Fatiamento, string methods | Já internalizado |
 
 ---
 
