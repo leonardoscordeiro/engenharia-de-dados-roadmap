@@ -58,8 +58,10 @@ aulas/
 │   └── funcoes_metodos_python_4.ipynb # Material de Apoio — Especialista
 │
 └── modulo II/
+    ├── aula6.ipynb                    # Funções e Estrutura de Dados
     ├── aula7.ipynb                    # Funções e Estrutura de Dados
     ├── exercio_funcoes.ipynb          # Exercícios Práticos de Funções
+    ├── revisoes.ipynb                 # Revisão — Relatório de Transações Bancárias
     └── vendas.csv                     # Dataset para exercícios
 ```
 
